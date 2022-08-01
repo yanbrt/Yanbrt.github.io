@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+<form action="/formulario.html">
+    <fieldset>
+   <legend>Informações Pessoais</legend>
+   <div>
+    Nome: <input type="text" name="Nome" id="Nome" placeholder="Digite o nome " size="40">
+    <br> 
+    <div>
+    Sexo: <input type="radio" name="tipo" value="sexo" id="">Masculino
+    <input type="radio" name="tipo" value="sexo" id="">Feminino
+    </div>
+    <br>
+    Idade: <input type="text" name="idade" id="idade" placeholder="Idade" size="5">
+    <br>
+    Endereço: <input type="text" name="endereço" id="endereço" placeholder="Digite o endereço" size="40">
+    <br>
+    Cidade: <input type="text" name="cidade" placeholder="Cidade" id="cidade">
+    <br>
+    Estado: <select name="estado" id="estado">
+        <option value="UF">UF</option>
+    </select>
+    <br><br>
+    CEP: <input type="text" name="cep" id="cep" placeholder="XXXXX-XXX">
+    <br>
+    Tel/Res: <input type="number" name="numerico" id="numerico" placeholder="(99)99999-9999">
+    <br>
+    Tel/Cel: <input type="number" name="numerico" id="numerico" placeholder="(99)99999-9999">
+    <br>
+    Email: <input type="email" name="email" id="email" placeholder="Digite o endereço de email">
+</div>
+</fieldset>
+<br>
+<button>Enviar</button>
+</form>
+
+     <style>
+        input{
+            display:inline block;
+            margin-bottom: 10px;   
+        }
+    </style> 
+
+
+
+</body>
+</html>
